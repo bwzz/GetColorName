@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "我的时钟",
+    "name": "GetColorName",
     "version": "1.0",
-    "description": "我的第一个Chrome扩展",
+    "description": "RGB in and name out",
     "icons": {
         "16": "images/icon16.png",
         "48": "images/icon48.png",
@@ -10,10 +10,10 @@
     },
     "browser_action": {
         "default_icon": {
-            "19": "images/icon19.png",
-            "38": "images/icon38.png"
+            "19": "images/icon16.png",
+            "38": "images/icon48.png"
         },
-        "default_title": "我的时钟",
+        "default_title": "GetColorName",
         "default_popup": "popup.html"
     }
 }
